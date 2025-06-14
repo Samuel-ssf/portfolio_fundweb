@@ -50,7 +50,7 @@ Este site está disponível publicamente através do **GitHub Pages**. Você pod
 
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um **pull request**.
 
-## 10. Contato
+## Contato
 
 Desenvolvido por [**Samuel**](https://github.com/Samuel-ssf)
 Para dúvidas, sugestões ou colaborações, entre em contato via GitHub ou abra uma issue!
