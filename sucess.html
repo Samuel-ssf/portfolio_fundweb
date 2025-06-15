@@ -1,42 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
+
+     <!-- Servidores de Fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonte do Google - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="Projeto Portfólio do Samuel, desenvolvedor Fullstack">
+    <meta name="description" content="Projeto Portfólio do Rafael, desenvolvedor web fullstack.">
     <meta name="author" content="Samuel Silva">
-    <meta name="keywords" content="Portifólio, desenvolvedor, web, Fullstack, Samuel Silva, HTML, CSS, JavaScript">
+    <meta name="keywords" content="portfólio, desenvolvedor, web, fullstack, Rafael Queiróz, HTML, CSS, JavaScript">
     <link rel="icon" href="./assets/img/favicon.svg" />
-    <title>Portifólio do Samuel</title>
+
+      <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Portfólio do Samuel</title>
 </head>
 
 <body>
+    <!-- Cabeçalho da Página (header) -->
+    <header class="flex menu_container">
 
-    <!-- Cabeçalho da Pagina -->
-    <header>
+        <!-- Div Conteudo do Cabeçalho -->
+        <div id="header_content" class="menu_content">
 
-        <!-- Titulo da Pagina -->
-        <div id="header_content">
-            <div href="titulo">
-                <a href="a">Universo</a>
+             <!-- Conteúdo do Cabeçalho -->
+             <div id="menu_content_sucess">
+
+                <!-- Hyperlink -->
+                <a href="index.html">Universo</a>
+
             </div>
 
         </div>
     </header>
-    <!-- Confirmando que a Mensagem Enviada -->
+
+    <!-- Seção Principal da Página (main) -->
     <main>
-        <div id="conteudo"> 
-            <div id="mensage_sucesso">
-                <h1>E-mail Enviado com Sucesso ✅</h1>
-                <p>Conte comigo no que for preciso. Em breve retornarei com mais detalhes, e ficarei a disposição para continuar essa troca!</p>
-                <button id="botao_voltar">
-                    Voltar
-                </button>
+
+        <!-- Seção Home -->
+        <section id="home" class="flex home_container_sucess">
+
+            <!-- Texto da Seção Home -->
+            <article id="home_sucess" class="flex">
+
+                <h1>E-mail enviado com Sucesso!</h1>
+                <h4>Obrigado por entrar em contato, logo mais retornarei sua mensagem!</h4>
+
+                <a class="botao" href="index.html">Voltar</a>
+
+            </article>
+
+        </section>
+
     </main>
 
-    <!-- Rodapé da pagina -->
-     <footer>Feito com Dedicação por Samuel Silva | 2025 ✨</footer>
+    <!-- Rodapé da Página (footer) -->
+    <footer>
+        Feito com Dedicação por Samuel Silva - 2025 - 🧡
+    </footer>
+
 </body>
 
-</html> 
+</html>
